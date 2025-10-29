@@ -10,11 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://openlibx402.github.io/docs/examples/typescript/langgraph-workflow/">
+        <link rel="canonical" href="https://openlibx402.github.io/docs/examples/typescript/nextjs-app/">
       
       
-        <link rel="prev" href="../langchain-agent/">
+        <link rel="prev" href="../express-server/">
       
+      
+        <link rel="next" href="../langchain-agent/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +24,7 @@
     
     
       
-        <title>LangGraph Workflow - OpenLibx402 Docs</title>
+        <title>Next.js App - OpenLibx402 Docs</title>
       
     
     
@@ -76,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#langgraphjs-workflow-with-x402-payment-support" class="md-skip">
+        <a href="#nextjs-app-example-with-x402-payment-support" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              LangGraph Workflow
+              Next.js App
             
           </span>
         </div>
@@ -1077,10 +1079,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../nextjs-app/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Next.js App
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1091,6 +1115,179 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-install-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Install Dependencies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-configure-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Configure Environment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-build-and-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Build and Run
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Endpoints
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API Endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#free-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Free Endpoints
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paid-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paid Endpoints
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How It Works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server-side-api-routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Server-Side (API Routes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-side-react-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client-Side (React Components)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#payment-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Payment Flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browser-wallet-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browser Wallet Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Development Tips
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learn-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learn More
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1123,32 +1320,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    LangGraph Workflow
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../langgraph-workflow/" class="md-nav__link">
         
   
   
@@ -1159,137 +1334,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Features
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prerequisites
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setup
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#running-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example-1-simple-payment-workflow" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example 1: Simple Payment Workflow
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#example-2-custom-workflow-with-conditional-payment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example 2: Custom Workflow with Conditional Payment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#example-3-multi-step-research-workflow" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example 3: Multi-Step Research Workflow
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
-    <span class="md-ellipsis">
-      How It Works
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="How It Works">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#payment-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      Payment Flow
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#state-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      State Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1346,64 +1390,70 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prerequisites
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#setup" class="md-nav__link">
     <span class="md-ellipsis">
       Setup
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#running-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
+    <nav class="md-nav" aria-label="Setup">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example-1-simple-payment-workflow" class="md-nav__link">
+  <a href="#1-install-dependencies" class="md-nav__link">
     <span class="md-ellipsis">
-      Example 1: Simple Payment Workflow
+      1. Install Dependencies
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#example-2-custom-workflow-with-conditional-payment" class="md-nav__link">
+  <a href="#2-configure-environment" class="md-nav__link">
     <span class="md-ellipsis">
-      Example 2: Custom Workflow with Conditional Payment
+      2. Configure Environment
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#example-3-multi-step-research-workflow" class="md-nav__link">
+  <a href="#3-build-and-run" class="md-nav__link">
     <span class="md-ellipsis">
-      Example 3: Multi-Step Research Workflow
+      3. Build and Run
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Endpoints
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API Endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#free-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Free Endpoints
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paid-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paid Endpoints
     </span>
   </a>
   
@@ -1425,18 +1475,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#payment-flow" class="md-nav__link">
+  <a href="#server-side-api-routes" class="md-nav__link">
     <span class="md-ellipsis">
-      Payment Flow
+      Server-Side (API Routes)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#state-management" class="md-nav__link">
+  <a href="#client-side-react-components" class="md-nav__link">
     <span class="md-ellipsis">
-      State Management
+      Client-Side (React Components)
     </span>
   </a>
   
@@ -1444,6 +1494,42 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#payment-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Payment Flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browser-wallet-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browser Wallet Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Development Tips
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learn-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learn More
+    </span>
+  </a>
   
 </li>
       
@@ -1463,7 +1549,7 @@
 
 
   
-    <a href="https://github.com/openlibx402/docs/edit/master/docs/examples/typescript/langgraph-workflow.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/openlibx402/docs/edit/master/docs/examples/typescript/nextjs-app.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1471,103 +1557,183 @@
   
 
 
-<h1 id="langgraphjs-workflow-with-x402-payment-support">LangGraph.js Workflow with X402 Payment Support<a class="headerlink" href="#langgraphjs-workflow-with-x402-payment-support" title="Permanent link">&para;</a></h1>
-<p>This example demonstrates how to build LangGraph.js workflows that include payment nodes for accessing paid APIs using the X402 payment protocol.</p>
+<h1 id="nextjs-app-example-with-x402-payment-support">Next.js App Example with X402 Payment Support<a class="headerlink" href="#nextjs-app-example-with-x402-payment-support" title="Permanent link">&para;</a></h1>
+<p>This example demonstrates how to create a Next.js application with X402 payment requirements for API endpoints, including both server-side API routes and client-side payment handling.</p>
 <h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Payment Nodes</strong>: Reusable nodes for handling payments in workflows</li>
-<li><strong>Conditional Routing</strong>: Route based on payment requirements</li>
-<li><strong>Multi-Step Workflows</strong>: Access multiple paid APIs in sequence</li>
-<li><strong>State Management</strong>: Proper state handling for payment status</li>
-<li><strong>TypeScript</strong>: Full type safety with LangGraph.js</li>
+<li><strong>Next.js App Router</strong> - Modern Next.js 14 with App Router</li>
+<li><strong>Server-side API Routes</strong> - Protected endpoints with payment requirements</li>
+<li><strong>Client-side Payment Handling</strong> - React components with automatic payment flow</li>
+<li><strong>Free and Premium Endpoints</strong> - Mix of public and paid content</li>
+<li><strong>TypeScript</strong> - Full type safety</li>
+<li><strong>Tailwind CSS</strong> - Modern styling</li>
+<li><strong>X402 Protocol</strong> - Blockchain-based micropayments</li>
 </ul>
-<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
-<ol>
-<li>
-<p><strong>Express.js Server</strong>: The express-server example must be running
-   <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nb">cd</span><span class="w"> </span>../express-server
-<a id="__codelineno-0-2" name="__codelineno-0-2"></a>pnpm<span class="w"> </span>install<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>pnpm<span class="w"> </span>run<span class="w"> </span>build<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>pnpm<span class="w"> </span>start
-</code></pre></div></td></tr></table></div></p>
-</li>
-<li>
-<p><strong>Wallet with Funds</strong>: You need a Solana wallet with:</p>
-</li>
-<li>SOL for transaction fees</li>
-<li>USDC tokens for payments (on devnet)</li>
-</ol>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<ol>
-<li>
-<p>Install dependencies:
-   <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>pnpm<span class="w"> </span>install
-</code></pre></div></td></tr></table></div></p>
-</li>
-<li>
-<p>Create <code>.env</code> file (optional):
-   <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>cp<span class="w"> </span>.env.example<span class="w"> </span>.env
-</code></pre></div></td></tr></table></div></p>
-</li>
-<li>
-<p>The first run will create a wallet file (<code>wallet.json</code>)</p>
-</li>
-<li><strong>Important</strong>: Fund this wallet with SOL and USDC on devnet</li>
-<li>Get SOL: <code>solana airdrop 1 &lt;ADDRESS&gt; --url devnet</code></li>
-<li>Get USDC: Use a devnet faucet</li>
-</ol>
-<h2 id="running-examples">Running Examples<a class="headerlink" href="#running-examples" title="Permanent link">&para;</a></h2>
+<h3 id="1-install-dependencies">1. Install Dependencies<a class="headerlink" href="#1-install-dependencies" title="Permanent link">&para;</a></h3>
+<p>From the monorepo root:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>pnpm<span class="w"> </span>install
+</code></pre></div></td></tr></table></div>
+<p>Or from npm:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>npm<span class="w"> </span>install
+</code></pre></div></td></tr></table></div>
+<h3 id="2-configure-environment">2. Configure Environment<a class="headerlink" href="#2-configure-environment" title="Permanent link">&para;</a></h3>
+<p>Create a <code>.env.local</code> file based on <code>.env.example</code>:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>cp<span class="w"> </span>.env.example<span class="w"> </span>.env.local
+</code></pre></div></td></tr></table></div>
+<p>Edit <code>.env.local</code> with your Solana wallet details:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
 <span class="normal"><a href="#__codelineno-3-2">2</a></span>
-<span class="normal"><a href="#__codelineno-3-3">3</a></span>
-<span class="normal"><a href="#__codelineno-3-4">4</a></span>
-<span class="normal"><a href="#__codelineno-3-5">5</a></span>
-<span class="normal"><a href="#__codelineno-3-6">6</a></span>
-<span class="normal"><a href="#__codelineno-3-7">7</a></span>
-<span class="normal"><a href="#__codelineno-3-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1"># Build</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2"></a>pnpm<span class="w"> </span>run<span class="w"> </span>build
-<a id="__codelineno-3-3" name="__codelineno-3-3"></a>
-<a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="c1"># Run</span>
-<a id="__codelineno-3-5" name="__codelineno-3-5"></a>pnpm<span class="w"> </span>start
-<a id="__codelineno-3-6" name="__codelineno-3-6"></a>
-<a id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="c1"># Or run in dev mode</span>
-<a id="__codelineno-3-8" name="__codelineno-3-8"></a>pnpm<span class="w"> </span>run<span class="w"> </span>dev
+<span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a>PAYMENT_WALLET_ADDRESS=your_solana_wallet_address_here
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a>USDC_MINT_ADDRESS=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a>SOLANA_RPC_URL=https://api.devnet.solana.com
 </code></pre></div></td></tr></table></div>
-<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
-<h3 id="example-1-simple-payment-workflow">Example 1: Simple Payment Workflow<a class="headerlink" href="#example-1-simple-payment-workflow" title="Permanent link">&para;</a></h3>
-<p>Uses <code>fetchWithPaymentNode</code> for easy payment integration:
-- Single node handles both fetch and payment
-- Minimal configuration
-- Automatic payment handling</p>
-<h3 id="example-2-custom-workflow-with-conditional-payment">Example 2: Custom Workflow with Conditional Payment<a class="headerlink" href="#example-2-custom-workflow-with-conditional-payment" title="Permanent link">&para;</a></h3>
-<p>Demonstrates explicit payment handling:
-- Separate fetch and payment nodes
-- Conditional routing based on payment requirements
-- Custom error handling</p>
-<h3 id="example-3-multi-step-research-workflow">Example 3: Multi-Step Research Workflow<a class="headerlink" href="#example-3-multi-step-research-workflow" title="Permanent link">&para;</a></h3>
-<p>Shows complex multi-API workflows:
-- Access multiple paid APIs sequentially
-- Collect and aggregate results
-- State management across multiple steps</p>
+<h3 id="3-build-and-run">3. Build and Run<a class="headerlink" href="#3-build-and-run" title="Permanent link">&para;</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
+<span class="normal"><a href="#__codelineno-4-2">2</a></span>
+<span class="normal"><a href="#__codelineno-4-3">3</a></span>
+<span class="normal"><a href="#__codelineno-4-4">4</a></span>
+<span class="normal"><a href="#__codelineno-4-5">5</a></span>
+<span class="normal"><a href="#__codelineno-4-6">6</a></span>
+<span class="normal"><a href="#__codelineno-4-7">7</a></span>
+<span class="normal"><a href="#__codelineno-4-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="c1"># Development mode</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a>npm<span class="w"> </span>run<span class="w"> </span>dev
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="c1"># Build for production</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5"></a>npm<span class="w"> </span>run<span class="w"> </span>build
+<a id="__codelineno-4-6" name="__codelineno-4-6"></a>
+<a id="__codelineno-4-7" name="__codelineno-4-7"></a><span class="c1"># Start production server</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8"></a>npm<span class="w"> </span>start
+</code></pre></div></td></tr></table></div>
+<p>The app will start on <code>http://localhost:3000</code>.</p>
+<h2 id="api-endpoints">API Endpoints<a class="headerlink" href="#api-endpoints" title="Permanent link">&para;</a></h2>
+<h3 id="free-endpoints">Free Endpoints<a class="headerlink" href="#free-endpoints" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>GET /api</strong> - API information (no payment)</li>
+<li><strong>GET /api/free-data</strong> - Free data access (no payment)</li>
+</ul>
+<h3 id="paid-endpoints">Paid Endpoints<a class="headerlink" href="#paid-endpoints" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>GET /api/premium-data</strong> - Premium data (0.10 USDC)</li>
+<li><strong>GET /api/expensive-data</strong> - AI inference (1.00 USDC)</li>
+<li><strong>GET /api/tiered-data/[tier]</strong> - Tiered content (0.05 USDC)</li>
+<li><strong>POST /api/process-data</strong> - Data processing (0.25 USDC)</li>
+</ul>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<h3 id="payment-flow">Payment Flow<a class="headerlink" href="#payment-flow" title="Permanent link">&para;</a></h3>
+<h3 id="server-side-api-routes">Server-Side (API Routes)<a class="headerlink" href="#server-side-api-routes" title="Permanent link">&para;</a></h3>
 <ol>
-<li><strong>Fetch Node</strong>: Attempts to fetch API</li>
-<li><strong>Check Payment</strong>: Determines if payment is required (402 response)</li>
-<li><strong>Payment Node</strong>: Creates and broadcasts payment if needed</li>
-<li><strong>Process Node</strong>: Processes API response</li>
-<li><strong>State Updates</strong>: Tracks payment status throughout workflow</li>
+<li><strong>Initialize X402 Configuration</strong> (<code>app/api/config.ts</code>):</li>
 </ol>
-<h3 id="state-management">State Management<a class="headerlink" href="#state-management" title="Permanent link">&para;</a></h3>
-<p>```typescript
-interface PaymentState {
-  wallet_keypair: Keypair;
-  api_url: string;
-  api_response?: string;
-  payment_required?: boolean;
-  payment_completed?: boolean;
-  payment_error?: string;
-  max_payment_amount?: string;
-}</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span>
+<span class="normal"><a href="#__codelineno-5-2">2</a></span>
+<span class="normal"><a href="#__codelineno-5-3">3</a></span>
+<span class="normal"><a href="#__codelineno-5-4">4</a></span>
+<span class="normal"><a href="#__codelineno-5-5">5</a></span>
+<span class="normal"><a href="#__codelineno-5-6">6</a></span>
+<span class="normal"><a href="#__codelineno-5-7">7</a></span>
+<span class="normal"><a href="#__codelineno-5-8">8</a></span>
+<span class="normal"><a href="#__codelineno-5-9">9</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">X402Config</span><span class="p">,</span><span class="w"> </span><span class="nx">initX402</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@openlibx402/nextjs&quot;</span><span class="p">;</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="kd">const</span><span class="w"> </span><span class="nx">config</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">X402Config</span><span class="p">({</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="w">  </span><span class="nx">paymentAddress</span><span class="o">:</span><span class="w"> </span><span class="kt">process.env.PAYMENT_WALLET_ADDRESS</span><span class="o">!</span><span class="p">,</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="w">  </span><span class="nx">tokenMint</span><span class="o">:</span><span class="w"> </span><span class="kt">process.env.USDC_MINT_ADDRESS</span><span class="o">!</span><span class="p">,</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="w">  </span><span class="nx">network</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;solana-devnet&quot;</span><span class="p">,</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7"></a><span class="p">});</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8"></a>
+<a id="__codelineno-5-9" name="__codelineno-5-9"></a><span class="nx">initX402</span><span class="p">(</span><span class="nx">config</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<ol>
+<li><strong>Protect API Routes</strong> with <code>withPayment</code>:</li>
+</ol>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-6-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-6-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-6-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-6-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-6-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-6-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-6-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-6-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-6-10">10</a></span>
+<span class="normal"><a href="#__codelineno-6-11">11</a></span>
+<span class="normal"><a href="#__codelineno-6-12">12</a></span>
+<span class="normal"><a href="#__codelineno-6-13">13</a></span>
+<span class="normal"><a href="#__codelineno-6-14">14</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">withPayment</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@openlibx402/nextjs&quot;</span><span class="p">;</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2"></a>
+<a id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="k">export</span><span class="w"> </span><span class="kd">const</span><span class="w"> </span><span class="nx">GET</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">withPayment</span><span class="p">(</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="w">  </span><span class="p">{</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5"></a><span class="w">    </span><span class="nx">amount</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;0.10&quot;</span><span class="p">,</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Access to premium data&quot;</span><span class="p">,</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7"></a><span class="w">  </span><span class="p">},</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8"></a><span class="w">  </span><span class="k">async</span><span class="w"> </span><span class="p">(</span><span class="nx">req</span><span class="p">,</span><span class="w"> </span><span class="nx">context</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">NextResponse</span><span class="p">.</span><span class="nx">json</span><span class="p">({</span>
+<a id="__codelineno-6-10" name="__codelineno-6-10"></a><span class="w">      </span><span class="nx">data</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Premium content&quot;</span><span class="p">,</span>
+<a id="__codelineno-6-11" name="__codelineno-6-11"></a><span class="w">      </span><span class="nx">payment_id</span><span class="o">:</span><span class="w"> </span><span class="kt">context.payment?.paymentId</span><span class="p">,</span>
+<a id="__codelineno-6-12" name="__codelineno-6-12"></a><span class="w">    </span><span class="p">});</span>
+<a id="__codelineno-6-13" name="__codelineno-6-13"></a><span class="w">  </span><span class="p">}</span>
+<a id="__codelineno-6-14" name="__codelineno-6-14"></a><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="client-side-react-components">Client-Side (React Components)<a class="headerlink" href="#client-side-react-components" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Setup X402 Client Provider</strong> (<code>app/components/X402ClientProvider.tsx</code>):</li>
+</ol>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span>
+<span class="normal"><a href="#__codelineno-7-2">2</a></span>
+<span class="normal"><a href="#__codelineno-7-3">3</a></span>
+<span class="normal"><a href="#__codelineno-7-4">4</a></span>
+<span class="normal"><a href="#__codelineno-7-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">X402AutoClient</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@openlibx402/client&quot;</span><span class="p">;</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Keypair</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@solana/web3.js&quot;</span><span class="p">;</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3"></a>
+<a id="__codelineno-7-4" name="__codelineno-7-4"></a><span class="kd">const</span><span class="w"> </span><span class="nx">keypair</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Keypair</span><span class="p">.</span><span class="nx">generate</span><span class="p">();</span><span class="w"> </span><span class="c1">// Or use browser wallet</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="kd">const</span><span class="w"> </span><span class="nx">client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">X402AutoClient</span><span class="p">(</span><span class="nx">keypair</span><span class="p">,</span><span class="w"> </span><span class="nx">rpcUrl</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<ol>
+<li><strong>Make Requests</strong> (automatic payment handling):</li>
+</ol>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1">1</a></span>
+<span class="normal"><a href="#__codelineno-8-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;/api/premium-data&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2"></a><span class="c1">// Payment is handled automatically if required</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="payment-flow">Payment Flow<a class="headerlink" href="#payment-flow" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>User clicks</strong> "Try Endpoint" button</li>
+<li><strong>Client makes request</strong> to API endpoint</li>
+<li><strong>Server responds</strong> with 402 Payment Required (if no payment)</li>
+<li><strong>Client detects 402</strong> and creates payment</li>
+<li><strong>Client retries</strong> request with payment authorization</li>
+<li><strong>Server verifies</strong> payment on-chain</li>
+<li><strong>Server returns</strong> protected content</li>
+</ol>
+<h2 id="browser-wallet-integration">Browser Wallet Integration<a class="headerlink" href="#browser-wallet-integration" title="Permanent link">&para;</a></h2>
+<p>To integrate with browser wallets in production:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-1">1</a></span>
+<span class="normal"><a href="#__codelineno-9-2">2</a></span>
+<span class="normal"><a href="#__codelineno-9-3">3</a></span>
+<span class="normal"><a href="#__codelineno-9-4">4</a></span>
+<span class="normal"><a href="#__codelineno-9-5">5</a></span>
+<span class="normal"><a href="#__codelineno-9-6">6</a></span>
+<span class="normal"><a href="#__codelineno-9-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1"></a><span class="c1">// Instead of generating a keypair</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">useWallet</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@solana/wallet-adapter-react&quot;</span><span class="p">;</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3"></a>
+<a id="__codelineno-9-4" name="__codelineno-9-4"></a><span class="kd">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">publicKey</span><span class="p">,</span><span class="w"> </span><span class="nx">signTransaction</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useWallet</span><span class="p">();</span>
+<a id="__codelineno-9-5" name="__codelineno-9-5"></a>
+<a id="__codelineno-9-6" name="__codelineno-9-6"></a><span class="c1">// Use wallet adapter with X402Client</span>
+<a id="__codelineno-9-7" name="__codelineno-9-7"></a><span class="kd">const</span><span class="w"> </span><span class="nx">client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">X402Client</span><span class="p">(</span><span class="cm">/* wallet adapter */</span><span class="p">,</span><span class="w"> </span><span class="nx">rpcUrl</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="development-tips">Development Tips<a class="headerlink" href="#development-tips" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Testing without funds</strong>: The demo will show payment required errors, which is expected behavior</li>
+<li><strong>Hot reload</strong>: Changes to API routes and components are automatically reflected</li>
+<li><strong>TypeScript</strong>: Full type checking for both client and server code</li>
+<li><strong>Tailwind CSS</strong>: Utility-first styling for rapid UI development</li>
+</ol>
+<h2 id="learn-more">Learn More<a class="headerlink" href="#learn-more" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://openlibx402.github.io/docs">OpenLibx402 Documentation</a></li>
+<li><a href="https://www.x402.org/x402-whitepaper.pdf">X402 Protocol Specification</a></li>
+<li><a href="https://nextjs.org/docs">Next.js Documentation</a></li>
+<li><a href="https://solana.com/docs/clients/javascript">Solana Web3.js</a></li>
+</ul>
 
 
 
