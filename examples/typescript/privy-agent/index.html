@@ -10,28 +10,28 @@
       
       
       
-        <link rel="canonical" href="https://openlibx402.github.io/docs/rust/">
+        <link rel="canonical" href="https://openlibx402.github.io/docs/examples/typescript/privy-agent/">
       
       
-        <link rel="prev" href="../go/middleware/echo/">
+        <link rel="prev" href="../langgraph-workflow/">
       
       
-        <link rel="next" href="libraries/core/">
+        <link rel="next" href="../../../go/examples/nethttp-server/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
     
     
       
-        <title>Overview - OpenLibx402 Docs</title>
+        <title>Privy Agent - OpenLibx402 Docs</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,9 +50,9 @@
       
     
     
-      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,7 +60,7 @@
     
     
   <!-- Chatbot Widget Styles -->
-  <link rel="stylesheet" href="../assets/stylesheets/chatbot.css?v=2">
+  <link rel="stylesheet" href="../../../assets/stylesheets/chatbot.css?v=2">
 
   </head>
   
@@ -81,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rust-implementation" class="md-skip">
+        <a href="#privy-server-wallet-agent" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="OpenLibx402 Docs" class="md-header__button md-logo" aria-label="OpenLibx402 Docs" data-md-component="logo">
+    <a href="../../.." title="OpenLibx402 Docs" class="md-header__button md-logo" aria-label="OpenLibx402 Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Privy Agent
             
           </span>
         </div>
@@ -212,7 +212,7 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -231,7 +231,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../openlibx402-technical-spec/" class="md-tabs__link">
+      <a href="../../../openlibx402-technical-spec/" class="md-tabs__link">
         
   
   
@@ -250,7 +250,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../quick-reference/" class="md-tabs__link">
+      <a href="../../../quick-reference/" class="md-tabs__link">
         
   
   
@@ -271,7 +271,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../chatbot/" class="md-tabs__link">
+        <a href="../../../chatbot/" class="md-tabs__link">
           
   
   
@@ -287,8 +287,6 @@
   
   
   
-    
-  
   
     
     
@@ -296,13 +294,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../packages/python/openlibx402-core/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../../packages/python/openlibx402-core/" class="md-tabs__link">
           
   
   
@@ -321,11 +317,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../examples/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
           
   
   
@@ -352,7 +350,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../go/getting-started/installation/" class="md-tabs__link">
+        <a href="../../../go/getting-started/installation/" class="md-tabs__link">
           
   
   
@@ -382,7 +380,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../go/reference/api-reference/" class="md-tabs__link">
+        <a href="../../../go/reference/api-reference/" class="md-tabs__link">
           
   
   
@@ -419,7 +417,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="OpenLibx402 Docs" class="md-nav__button md-logo" aria-label="OpenLibx402 Docs" data-md-component="logo">
+    <a href="../../.." title="OpenLibx402 Docs" class="md-nav__button md-logo" aria-label="OpenLibx402 Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -449,7 +447,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -471,7 +469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../openlibx402-technical-spec/" class="md-nav__link">
+      <a href="../../../openlibx402-technical-spec/" class="md-nav__link">
         
   
   
@@ -493,7 +491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quick-reference/" class="md-nav__link">
+      <a href="../../../quick-reference/" class="md-nav__link">
         
   
   
@@ -556,7 +554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/" class="md-nav__link">
+      <a href="../../../chatbot/" class="md-nav__link">
         
   
   
@@ -579,7 +577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/quickstart/" class="md-nav__link">
+      <a href="../../../chatbot/quickstart/" class="md-nav__link">
         
   
   
@@ -602,7 +600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/overview/" class="md-nav__link">
+      <a href="../../../chatbot/overview/" class="md-nav__link">
         
   
   
@@ -625,7 +623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/configuration/" class="md-nav__link">
+      <a href="../../../chatbot/configuration/" class="md-nav__link">
         
   
   
@@ -648,7 +646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/api/" class="md-nav__link">
+      <a href="../../../chatbot/api/" class="md-nav__link">
         
   
   
@@ -671,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/payments/" class="md-nav__link">
+      <a href="../../../chatbot/payments/" class="md-nav__link">
         
   
   
@@ -694,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/architecture/" class="md-nav__link">
+      <a href="../../../chatbot/architecture/" class="md-nav__link">
         
   
   
@@ -717,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/deployment/" class="md-nav__link">
+      <a href="../../../chatbot/deployment/" class="md-nav__link">
         
   
   
@@ -740,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatbot/TABLE_OF_CONTENTS/" class="md-nav__link">
+      <a href="../../../chatbot/TABLE_OF_CONTENTS/" class="md-nav__link">
         
   
   
@@ -767,29 +765,24 @@
       
   
   
-    
   
   
-  
     
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -802,7 +795,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Packages
@@ -857,7 +850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/python/openlibx402-core/" class="md-nav__link">
+      <a href="../../../packages/python/openlibx402-core/" class="md-nav__link">
         
   
   
@@ -880,7 +873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/python/openlibx402-fastapi/" class="md-nav__link">
+      <a href="../../../packages/python/openlibx402-fastapi/" class="md-nav__link">
         
   
   
@@ -903,7 +896,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/python/openlibx402-client/" class="md-nav__link">
+      <a href="../../../packages/python/openlibx402-client/" class="md-nav__link">
         
   
   
@@ -926,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/python/openlibx402-langchain/" class="md-nav__link">
+      <a href="../../../packages/python/openlibx402-langchain/" class="md-nav__link">
         
   
   
@@ -949,7 +942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/python/openlibx402-langgraph/" class="md-nav__link">
+      <a href="../../../packages/python/openlibx402-langgraph/" class="md-nav__link">
         
   
   
@@ -1021,7 +1014,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/typescript/openlibx402-core/" class="md-nav__link">
+      <a href="../../../packages/typescript/openlibx402-core/" class="md-nav__link">
         
   
   
@@ -1044,7 +1037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/typescript/openlibx402-client/" class="md-nav__link">
+      <a href="../../../packages/typescript/openlibx402-client/" class="md-nav__link">
         
   
   
@@ -1067,7 +1060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/typescript/openlibx402-express/" class="md-nav__link">
+      <a href="../../../packages/typescript/openlibx402-express/" class="md-nav__link">
         
   
   
@@ -1090,7 +1083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/typescript/openlibx402-nextjs/" class="md-nav__link">
+      <a href="../../../packages/typescript/openlibx402-nextjs/" class="md-nav__link">
         
   
   
@@ -1113,7 +1106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/typescript/openlibx402-langchain/" class="md-nav__link">
+      <a href="../../../packages/typescript/openlibx402-langchain/" class="md-nav__link">
         
   
   
@@ -1136,7 +1129,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/typescript/openlibx402-langgraph/" class="md-nav__link">
+      <a href="../../../packages/typescript/openlibx402-langgraph/" class="md-nav__link">
         
   
   
@@ -1159,7 +1152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packages/typescript/openlibx402-privy/" class="md-nav__link">
+      <a href="../../../packages/typescript/openlibx402-privy/" class="md-nav__link">
         
   
   
@@ -1231,7 +1224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/" class="md-nav__link">
+      <a href="../../../go/" class="md-nav__link">
         
   
   
@@ -1254,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/libraries/core/" class="md-nav__link">
+      <a href="../../../go/libraries/core/" class="md-nav__link">
         
   
   
@@ -1277,7 +1270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/libraries/client/" class="md-nav__link">
+      <a href="../../../go/libraries/client/" class="md-nav__link">
         
   
   
@@ -1300,7 +1293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/middleware/nethttp/" class="md-nav__link">
+      <a href="../../../go/middleware/nethttp/" class="md-nav__link">
         
   
   
@@ -1323,7 +1316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/middleware/echo/" class="md-nav__link">
+      <a href="../../../go/middleware/echo/" class="md-nav__link">
         
   
   
@@ -1351,8 +1344,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1363,11 +1354,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
         
           
           <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
@@ -1383,7 +1374,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_4">
             <span class="md-nav__icon md-icon"></span>
             Rust
@@ -1394,32 +1385,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Overview
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../rust/" class="md-nav__link">
         
   
   
@@ -1430,158 +1399,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-navigation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quick Navigation
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quick Navigation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#libraries" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Libraries
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#middleware" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔗 Middleware
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚀 Examples
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    <span class="md-ellipsis">
-      📖 Getting Started
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reference" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔧 Reference
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Features
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#crate-dependencies" class="md-nav__link">
-    <span class="md-ellipsis">
-      Crate Dependencies
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-x402-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      The X402 Flow
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-rust" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why Rust?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#support" class="md-nav__link">
-    <span class="md-ellipsis">
-      Support
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#next-steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Next Steps
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1594,7 +1411,7 @@
   
   
     <li class="md-nav__item">
-      <a href="libraries/core/" class="md-nav__link">
+      <a href="../../../rust/libraries/core/" class="md-nav__link">
         
   
   
@@ -1617,7 +1434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="libraries/client/" class="md-nav__link">
+      <a href="../../../rust/libraries/client/" class="md-nav__link">
         
   
   
@@ -1640,7 +1457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="middleware/rocket/" class="md-nav__link">
+      <a href="../../../rust/middleware/rocket/" class="md-nav__link">
         
   
   
@@ -1663,7 +1480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="middleware/actix/" class="md-nav__link">
+      <a href="../../../rust/middleware/actix/" class="md-nav__link">
         
   
   
@@ -1735,7 +1552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/" class="md-nav__link">
+      <a href="../../../java/" class="md-nav__link">
         
   
   
@@ -1758,7 +1575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/libraries/core/" class="md-nav__link">
+      <a href="../../../java/libraries/core/" class="md-nav__link">
         
   
   
@@ -1781,7 +1598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/libraries/client/" class="md-nav__link">
+      <a href="../../../java/libraries/client/" class="md-nav__link">
         
   
   
@@ -1853,7 +1670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kotlin/" class="md-nav__link">
+      <a href="../../../kotlin/" class="md-nav__link">
         
   
   
@@ -1876,7 +1693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kotlin/libraries/core/" class="md-nav__link">
+      <a href="../../../kotlin/libraries/core/" class="md-nav__link">
         
   
   
@@ -1899,7 +1716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kotlin/libraries/client/" class="md-nav__link">
+      <a href="../../../kotlin/libraries/client/" class="md-nav__link">
         
   
   
@@ -1934,24 +1751,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -1964,7 +1786,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Examples
@@ -1978,7 +1800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   
@@ -2042,7 +1864,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/python/fastapi-server/" class="md-nav__link">
+      <a href="../../python/fastapi-server/" class="md-nav__link">
         
   
   
@@ -2065,7 +1887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/python/langchain-agent/" class="md-nav__link">
+      <a href="../../python/langchain-agent/" class="md-nav__link">
         
   
   
@@ -2088,7 +1910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/python/langgraph-workflow/" class="md-nav__link">
+      <a href="../../python/langgraph-workflow/" class="md-nav__link">
         
   
   
@@ -2116,6 +1938,8 @@
                 
   
   
+    
+  
   
   
     
@@ -2126,11 +1950,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" checked>
         
           
           <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
@@ -2146,7 +1970,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
             TypeScript
@@ -2160,7 +1984,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/typescript/express-server/" class="md-nav__link">
+      <a href="../express-server/" class="md-nav__link">
         
   
   
@@ -2183,7 +2007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/typescript/nextjs-app/" class="md-nav__link">
+      <a href="../nextjs-app/" class="md-nav__link">
         
   
   
@@ -2206,7 +2030,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/typescript/nuxtjs-app/" class="md-nav__link">
+      <a href="../nuxtjs-app/" class="md-nav__link">
         
   
   
@@ -2229,7 +2053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/typescript/astro-app/" class="md-nav__link">
+      <a href="../astro-app/" class="md-nav__link">
         
   
   
@@ -2252,7 +2076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/typescript/vue-app/" class="md-nav__link">
+      <a href="../vue-app/" class="md-nav__link">
         
   
   
@@ -2275,7 +2099,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/typescript/langchain-agent/" class="md-nav__link">
+      <a href="../langchain-agent/" class="md-nav__link">
         
   
   
@@ -2298,7 +2122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/typescript/langgraph-workflow/" class="md-nav__link">
+      <a href="../langgraph-workflow/" class="md-nav__link">
         
   
   
@@ -2318,10 +2142,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../examples/typescript/privy-agent/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Privy Agent
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2332,6 +2178,182 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-privy-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Privy Credentials
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Privy Credentials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app-id-and-app-secret" class="md-nav__link">
+    <span class="md-ellipsis">
+      App ID and App Secret
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#server-wallet-id" class="md-nav__link">
+    <span class="md-ellipsis">
+      Server Wallet ID
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security Benefits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wallet-not-found-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Wallet not found" Error
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#insufficient-funds-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Insufficient Funds" Error
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payment-amount-exceeds-maximum-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Payment amount exceeds maximum" Error
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related" class="md-nav__link">
+    <span class="md-ellipsis">
+      Related
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2393,7 +2415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/examples/nethttp-server/" class="md-nav__link">
+      <a href="../../../go/examples/nethttp-server/" class="md-nav__link">
         
   
   
@@ -2416,7 +2438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/examples/echo-server/" class="md-nav__link">
+      <a href="../../../go/examples/echo-server/" class="md-nav__link">
         
   
   
@@ -2488,7 +2510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/rocket-server/" class="md-nav__link">
+      <a href="../../../rust/examples/rocket-server/" class="md-nav__link">
         
   
   
@@ -2511,7 +2533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="examples/actix-server/" class="md-nav__link">
+      <a href="../../../rust/examples/actix-server/" class="md-nav__link">
         
   
   
@@ -2583,7 +2605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/examples/basic-usage/" class="md-nav__link">
+      <a href="../../../java/examples/basic-usage/" class="md-nav__link">
         
   
   
@@ -2655,7 +2677,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kotlin/examples/basic-usage/" class="md-nav__link">
+      <a href="../../../kotlin/examples/basic-usage/" class="md-nav__link">
         
   
   
@@ -2775,7 +2797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/getting-started/installation/" class="md-nav__link">
+      <a href="../../../go/getting-started/installation/" class="md-nav__link">
         
   
   
@@ -2798,7 +2820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/getting-started/server-quickstart/" class="md-nav__link">
+      <a href="../../../go/getting-started/server-quickstart/" class="md-nav__link">
         
   
   
@@ -2821,7 +2843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/getting-started/client-quickstart/" class="md-nav__link">
+      <a href="../../../go/getting-started/client-quickstart/" class="md-nav__link">
         
   
   
@@ -2893,7 +2915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/installation/" class="md-nav__link">
+      <a href="../../../rust/getting-started/installation/" class="md-nav__link">
         
   
   
@@ -2916,7 +2938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/server-quickstart/" class="md-nav__link">
+      <a href="../../../rust/getting-started/server-quickstart/" class="md-nav__link">
         
   
   
@@ -2939,7 +2961,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/client-quickstart/" class="md-nav__link">
+      <a href="../../../rust/getting-started/client-quickstart/" class="md-nav__link">
         
   
   
@@ -3011,7 +3033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/getting-started/installation/" class="md-nav__link">
+      <a href="../../../java/getting-started/installation/" class="md-nav__link">
         
   
   
@@ -3034,7 +3056,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/getting-started/client-quickstart/" class="md-nav__link">
+      <a href="../../../java/getting-started/client-quickstart/" class="md-nav__link">
         
   
   
@@ -3106,7 +3128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kotlin/getting-started/installation/" class="md-nav__link">
+      <a href="../../../kotlin/getting-started/installation/" class="md-nav__link">
         
   
   
@@ -3129,7 +3151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kotlin/getting-started/client-quickstart/" class="md-nav__link">
+      <a href="../../../kotlin/getting-started/client-quickstart/" class="md-nav__link">
         
   
   
@@ -3249,7 +3271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/reference/api-reference/" class="md-nav__link">
+      <a href="../../../go/reference/api-reference/" class="md-nav__link">
         
   
   
@@ -3272,7 +3294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/reference/errors/" class="md-nav__link">
+      <a href="../../../go/reference/errors/" class="md-nav__link">
         
   
   
@@ -3295,7 +3317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/reference/configuration/" class="md-nav__link">
+      <a href="../../../go/reference/configuration/" class="md-nav__link">
         
   
   
@@ -3367,7 +3389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/api-reference/" class="md-nav__link">
+      <a href="../../../rust/reference/api-reference/" class="md-nav__link">
         
   
   
@@ -3390,7 +3412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/errors/" class="md-nav__link">
+      <a href="../../../rust/reference/errors/" class="md-nav__link">
         
   
   
@@ -3413,7 +3435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/configuration/" class="md-nav__link">
+      <a href="../../../rust/reference/configuration/" class="md-nav__link">
         
   
   
@@ -3485,7 +3507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/reference/api-reference/" class="md-nav__link">
+      <a href="../../../java/reference/api-reference/" class="md-nav__link">
         
   
   
@@ -3508,7 +3530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/reference/errors/" class="md-nav__link">
+      <a href="../../../java/reference/errors/" class="md-nav__link">
         
   
   
@@ -3580,7 +3602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kotlin/reference/api-reference/" class="md-nav__link">
+      <a href="../../../kotlin/reference/api-reference/" class="md-nav__link">
         
   
   
@@ -3603,7 +3625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kotlin/reference/errors/" class="md-nav__link">
+      <a href="../../../kotlin/reference/errors/" class="md-nav__link">
         
   
   
@@ -3670,55 +3692,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-navigation" class="md-nav__link">
+  <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Navigation
+      Prerequisites
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Quick Navigation">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-privy-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Privy Credentials
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Privy Credentials">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#libraries" class="md-nav__link">
+  <a href="#app-id-and-app-secret" class="md-nav__link">
     <span class="md-ellipsis">
-      📚 Libraries
+      App ID and App Secret
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#middleware" class="md-nav__link">
+  <a href="#server-wallet-id" class="md-nav__link">
     <span class="md-ellipsis">
-      🔗 Middleware
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚀 Examples
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    <span class="md-ellipsis">
-      📖 Getting Started
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reference" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔧 Reference
+      Server Wallet ID
     </span>
   </a>
   
@@ -3730,63 +3752,87 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-features" class="md-nav__link">
+  <a href="#code-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Features
+      Code Example
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#crate-dependencies" class="md-nav__link">
+  <a href="#how-it-works" class="md-nav__link">
     <span class="md-ellipsis">
-      Crate Dependencies
+      How It Works
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#project-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      Project Structure
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-x402-flow" class="md-nav__link">
+  <a href="#security-benefits" class="md-nav__link">
     <span class="md-ellipsis">
-      The X402 Flow
+      Security Benefits
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-rust" class="md-nav__link">
+  <a href="#troubleshooting" class="md-nav__link">
     <span class="md-ellipsis">
-      Why Rust?
+      Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wallet-not-found-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Wallet not found" Error
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#support" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#insufficient-funds-error" class="md-nav__link">
     <span class="md-ellipsis">
-      Support
+      "Insufficient Funds" Error
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#payment-amount-exceeds-maximum-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Payment amount exceeds maximum" Error
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#next-steps" class="md-nav__link">
+  <a href="#related" class="md-nav__link">
     <span class="md-ellipsis">
-      Next Steps
+      Related
     </span>
   </a>
   
@@ -3808,7 +3854,7 @@
 
 
   
-    <a href="https://github.com/openlibx402/docs/edit/master/docs/rust/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/openlibx402/docs/edit/master/docs/examples/typescript/privy-agent.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -3816,169 +3862,180 @@
   
 
 
-<h1 id="rust-implementation">Rust Implementation<a class="headerlink" href="#rust-implementation" title="Permanent link">&para;</a></h1>
-<p>Welcome to the OpenLibx402 Rust implementation documentation. This section covers all Rust packages, libraries, middleware, and examples for building X402-enabled APIs and clients with type-safe, high-performance code.</p>
+<h1 id="privy-server-wallet-agent">Privy Server Wallet Agent<a class="headerlink" href="#privy-server-wallet-agent" title="Permanent link">&para;</a></h1>
+<p>This example demonstrates using Privy's server-side wallet infrastructure with x402 for agentic payments.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p>The Rust implementation provides:</p>
-<ul>
-<li><strong>Core Library</strong> - X402 protocol implementation with models, errors, and Solana payment processing</li>
-<li><strong>Client Library</strong> - HTTP client with automatic and explicit payment handling</li>
-<li><strong>Middleware</strong> - Integration with popular Rust web frameworks (Rocket, Actix Web)</li>
-<li><strong>Examples</strong> - Complete working examples for server and client implementations</li>
-</ul>
-<h2 id="quick-navigation">Quick Navigation<a class="headerlink" href="#quick-navigation" title="Permanent link">&para;</a></h2>
-<h3 id="libraries">📚 Libraries<a class="headerlink" href="#libraries" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="libraries/core/">Core Library</a> - Payment models, errors, and Solana processor</li>
-<li><a href="libraries/client/">Client Library</a> - X402 HTTP client with auto-payment support</li>
-</ul>
-<h3 id="middleware">🔗 Middleware<a class="headerlink" href="#middleware" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="middleware/rocket/">Rocket Middleware</a> - Rocket web framework integration</li>
-<li><a href="middleware/actix/">Actix Web Middleware</a> - Actix Web framework integration</li>
-</ul>
-<h3 id="examples">🚀 Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="examples/rocket-server/">Rocket Server</a> - Complete server with multiple pricing tiers</li>
-<li><a href="examples/actix-server/">Actix Web Server</a> - Actix Web server with dynamic pricing</li>
-</ul>
-<h3 id="getting-started">📖 Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="getting-started/installation/">Installation</a></li>
-<li><a href="getting-started/server-quickstart/">Quick Start Server</a></li>
-<li><a href="getting-started/client-quickstart/">Quick Start Client</a></li>
-</ul>
-<h3 id="reference">🔧 Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="reference/api-reference/">API Reference</a></li>
-<li><a href="reference/configuration/">Configuration</a></li>
-<li><a href="reference/errors/">Error Handling</a></li>
-</ul>
-<h2 id="key-features">Key Features<a class="headerlink" href="#key-features" title="Permanent link">&para;</a></h2>
-<p>✨ <strong>Type-Safe</strong> - Compile-time guarantees with Rust's type system
-🤖 <strong>Automatic Payments</strong> - Clients automatically handle payment flows
-⚡ <strong>High Performance</strong> - Zero-copy, async-first design with Tokio
-💰 <strong>Micropayments</strong> - Support payments as low as $0.001
-🔐 <strong>Secure</strong> - Memory-safe, payment verification, nonce-based replay protection
-🌐 <strong>Framework Agnostic</strong> - Works with Rocket, Actix Web, and custom implementations</p>
-<h2 id="crate-dependencies">Crate Dependencies<a class="headerlink" href="#crate-dependencies" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-0-10">10</a></span>
-<span class="normal"><a href="#__codelineno-0-11">11</a></span>
-<span class="normal"><a href="#__codelineno-0-12">12</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="k">[dependencies]</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="c1"># Core protocol</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">openlibx402-core</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;0.1&quot;</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4"></a>
-<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="c1"># HTTP client</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="n">openlibx402-client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;0.1&quot;</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7"></a>
-<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="c1"># Rocket middleware</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="n">openlibx402-rocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;0.1&quot;</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10"></a>
-<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="c1"># Actix Web middleware</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="n">openlibx402-actix</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;0.1&quot;</span>
+<p>The <code>@openlibx402/privy</code> package provides a secure way for AI agents and backend services to make x402 payments without managing raw private keys. Instead, Privy's server wallet API handles key management, signing, and security in the cloud.</p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Privy Account</strong>: Create an account at <a href="https://privy.io">https://privy.io</a></li>
+<li><strong>Server Wallet</strong>: Create a Solana server wallet in the Privy dashboard</li>
+<li><strong>Express.js Server</strong>: The express-server example must be running</li>
+<li><strong>Wallet with Funds</strong>: Your Privy server wallet needs SOL and USDC</li>
+</ol>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Navigate to the example:
+   <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nb">cd</span><span class="w"> </span>examples/typescript/privy-agent
+</code></pre></div></td></tr></table></div></p>
+</li>
+<li>
+<p>Install dependencies:
+   <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>pnpm<span class="w"> </span>install
+</code></pre></div></td></tr></table></div></p>
+</li>
+<li>
+<p>Configure environment:
+   <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>cp<span class="w"> </span>.env.example<span class="w"> </span>.env
+</code></pre></div></td></tr></table></div></p>
+</li>
+<li>
+<p>Edit <code>.env</code> with your Privy credentials:
+   <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
+<span class="normal"><a href="#__codelineno-3-2">2</a></span>
+<span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="nv">PRIVY_APP_ID</span><span class="o">=</span>your-app-id
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="nv">PRIVY_APP_SECRET</span><span class="o">=</span>your-app-secret
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="nv">PRIVY_WALLET_ID</span><span class="o">=</span>your-server-wallet-id
+</code></pre></div></td></tr></table></div></p>
+</li>
+</ol>
+<h2 id="running">Running<a class="headerlink" href="#running" title="Permanent link">&para;</a></h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
+<span class="normal"><a href="#__codelineno-4-2">2</a></span>
+<span class="normal"><a href="#__codelineno-4-3">3</a></span>
+<span class="normal"><a href="#__codelineno-4-4">4</a></span>
+<span class="normal"><a href="#__codelineno-4-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="c1"># Build and run</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a>pnpm<span class="w"> </span>start
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="c1"># Or run in dev mode</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5"></a>pnpm<span class="w"> </span>run<span class="w"> </span>dev
 </code></pre></div></td></tr></table></div>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-1-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-1-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-1-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-1-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-1-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-1-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-1-10">10</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="c1"># Core package (required)</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2"></a>cargo<span class="w"> </span>add<span class="w"> </span>openlibx402-core
-<a id="__codelineno-1-3" name="__codelineno-1-3"></a>
-<a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="c1"># Client (for consuming paid APIs)</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5"></a>cargo<span class="w"> </span>add<span class="w"> </span>openlibx402-client
-<a id="__codelineno-1-6" name="__codelineno-1-6"></a>
-<a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="c1"># Middleware for your framework</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8"></a>cargo<span class="w"> </span>add<span class="w"> </span>openlibx402-rocket
-<a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="c1"># or</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10"></a>cargo<span class="w"> </span>add<span class="w"> </span>openlibx402-actix
+<h2 id="getting-privy-credentials">Getting Privy Credentials<a class="headerlink" href="#getting-privy-credentials" title="Permanent link">&para;</a></h2>
+<h3 id="app-id-and-app-secret">App ID and App Secret<a class="headerlink" href="#app-id-and-app-secret" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Go to <a href="https://dashboard.privy.io">https://dashboard.privy.io</a></li>
+<li>Select your app (or create a new one)</li>
+<li>Navigate to <strong>Settings</strong> → <strong>API Keys</strong></li>
+<li>Copy your <strong>App ID</strong> and <strong>App Secret</strong></li>
+</ol>
+<h3 id="server-wallet-id">Server Wallet ID<a class="headerlink" href="#server-wallet-id" title="Permanent link">&para;</a></h3>
+<ol>
+<li>In the Privy dashboard, go to <strong>Wallets</strong> → <strong>Server Wallets</strong></li>
+<li>Click <strong>Create Wallet</strong></li>
+<li>Select <strong>Solana</strong> as the chain type</li>
+<li>Copy the wallet ID (format: <code>wallet-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</code>)</li>
+</ol>
+<h2 id="code-example">Code Example<a class="headerlink" href="#code-example" title="Permanent link">&para;</a></h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-5-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-5-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-5-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-5-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-5-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-5-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-5-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-5-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-5-10">10</a></span>
+<span class="normal"><a href="#__codelineno-5-11">11</a></span>
+<span class="normal"><a href="#__codelineno-5-12">12</a></span>
+<span class="normal"><a href="#__codelineno-5-13">13</a></span>
+<span class="normal"><a href="#__codelineno-5-14">14</a></span>
+<span class="normal"><a href="#__codelineno-5-15">15</a></span>
+<span class="normal"><a href="#__codelineno-5-16">16</a></span>
+<span class="normal"><a href="#__codelineno-5-17">17</a></span>
+<span class="normal"><a href="#__codelineno-5-18">18</a></span>
+<span class="normal"><a href="#__codelineno-5-19">19</a></span>
+<span class="normal"><a href="#__codelineno-5-20">20</a></span>
+<span class="normal"><a href="#__codelineno-5-21">21</a></span>
+<span class="normal"><a href="#__codelineno-5-22">22</a></span>
+<span class="normal"><a href="#__codelineno-5-23">23</a></span>
+<span class="normal"><a href="#__codelineno-5-24">24</a></span>
+<span class="normal"><a href="#__codelineno-5-25">25</a></span>
+<span class="normal"><a href="#__codelineno-5-26">26</a></span>
+<span class="normal"><a href="#__codelineno-5-27">27</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">PrivyX402Client</span><span class="p">,</span><span class="w"> </span><span class="nx">PrivyX402Config</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;@openlibx402/privy&#39;</span><span class="p">;</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="c1">// Configure the client</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="kd">const</span><span class="w"> </span><span class="nx">config</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">PrivyX402Config</span><span class="p">({</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="w">  </span><span class="nx">appId</span><span class="o">:</span><span class="w"> </span><span class="kt">process.env.PRIVY_APP_ID</span><span class="o">!</span><span class="p">,</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="w">  </span><span class="nx">appSecret</span><span class="o">:</span><span class="w"> </span><span class="kt">process.env.PRIVY_APP_SECRET</span><span class="o">!</span><span class="p">,</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7"></a><span class="w">  </span><span class="nx">walletId</span><span class="o">:</span><span class="w"> </span><span class="kt">process.env.PRIVY_WALLET_ID</span><span class="o">!</span><span class="p">,</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8"></a><span class="w">  </span><span class="nx">network</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;solana-devnet&#39;</span><span class="p">,</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9"></a><span class="w">  </span><span class="nx">maxPaymentAmount</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;5.0&#39;</span><span class="p">,</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10"></a><span class="p">});</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11"></a>
+<a id="__codelineno-5-12" name="__codelineno-5-12"></a><span class="kd">const</span><span class="w"> </span><span class="nx">client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">PrivyX402Client</span><span class="p">(</span><span class="nx">config</span><span class="p">);</span>
+<a id="__codelineno-5-13" name="__codelineno-5-13"></a>
+<a id="__codelineno-5-14" name="__codelineno-5-14"></a><span class="c1">// Initialize (fetches wallet details from Privy)</span>
+<a id="__codelineno-5-15" name="__codelineno-5-15"></a><span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">initialize</span><span class="p">();</span>
+<a id="__codelineno-5-16" name="__codelineno-5-16"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Wallet address: </span><span class="si">${</span><span class="nx">client</span><span class="p">.</span><span class="nx">getWalletAddress</span><span class="p">()</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+<a id="__codelineno-5-17" name="__codelineno-5-17"></a>
+<a id="__codelineno-5-18" name="__codelineno-5-18"></a><span class="c1">// Check balances</span>
+<a id="__codelineno-5-19" name="__codelineno-5-19"></a><span class="kd">const</span><span class="w"> </span><span class="nx">solBalance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">getSolBalance</span><span class="p">();</span>
+<a id="__codelineno-5-20" name="__codelineno-5-20"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`SOL Balance: </span><span class="si">${</span><span class="nx">solBalance</span><span class="p">.</span><span class="nx">toFixed</span><span class="p">(</span><span class="mf">4</span><span class="p">)</span><span class="si">}</span><span class="sb"> SOL`</span><span class="p">);</span>
+<a id="__codelineno-5-21" name="__codelineno-5-21"></a>
+<a id="__codelineno-5-22" name="__codelineno-5-22"></a><span class="c1">// Make paid API request</span>
+<a id="__codelineno-5-23" name="__codelineno-5-23"></a><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;http://localhost:8000/premium-data&#39;</span><span class="p">);</span>
+<a id="__codelineno-5-24" name="__codelineno-5-24"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Response:&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
+<a id="__codelineno-5-25" name="__codelineno-5-25"></a>
+<a id="__codelineno-5-26" name="__codelineno-5-26"></a><span class="c1">// Cleanup</span>
+<a id="__codelineno-5-27" name="__codelineno-5-27"></a><span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">close</span><span class="p">();</span>
 </code></pre></div></td></tr></table></div>
-<h2 id="the-x402-flow">The X402 Flow<a class="headerlink" href="#the-x402-flow" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-2-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-2-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-2-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-2-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-2-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-2-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-2-10">10</a></span>
-<span class="normal"><a href="#__codelineno-2-11">11</a></span>
-<span class="normal"><a href="#__codelineno-2-12">12</a></span>
-<span class="normal"><a href="#__codelineno-2-13">13</a></span>
-<span class="normal"><a href="#__codelineno-2-14">14</a></span>
-<span class="normal"><a href="#__codelineno-2-15">15</a></span>
-<span class="normal"><a href="#__codelineno-2-16">16</a></span>
-<span class="normal"><a href="#__codelineno-2-17">17</a></span>
-<span class="normal"><a href="#__codelineno-2-18">18</a></span>
-<span class="normal"><a href="#__codelineno-2-19">19</a></span>
-<span class="normal"><a href="#__codelineno-2-20">20</a></span>
-<span class="normal"><a href="#__codelineno-2-21">21</a></span>
-<span class="normal"><a href="#__codelineno-2-22">22</a></span>
-<span class="normal"><a href="#__codelineno-2-23">23</a></span>
-<span class="normal"><a href="#__codelineno-2-24">24</a></span>
-<span class="normal"><a href="#__codelineno-2-25">25</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>┌─────────────┐         ┌──────────────┐         ┌────────────┐
-<a id="__codelineno-2-2" name="__codelineno-2-2"></a>│  AI Agent   │  ─1─→   │  API Server  │         │ Blockchain │
-<a id="__codelineno-2-3" name="__codelineno-2-3"></a>│   (Client)  │         │   (Server)   │         │  (Solana)  │
-<a id="__codelineno-2-4" name="__codelineno-2-4"></a>└─────────────┘         └──────────────┘         └────────────┘
-<a id="__codelineno-2-5" name="__codelineno-2-5"></a>     │                        │                        │
-<a id="__codelineno-2-6" name="__codelineno-2-6"></a>     │  GET /data             │                        │
-<a id="__codelineno-2-7" name="__codelineno-2-7"></a>     ├───────────────────────→│                        │
-<a id="__codelineno-2-8" name="__codelineno-2-8"></a>     │                        │                        │
-<a id="__codelineno-2-9" name="__codelineno-2-9"></a>     │  402 Payment Required  │                        │
-<a id="__codelineno-2-10" name="__codelineno-2-10"></a>     │  + Payment Details     │                        │
-<a id="__codelineno-2-11" name="__codelineno-2-11"></a>     │←───────────────────────┤                        │
-<a id="__codelineno-2-12" name="__codelineno-2-12"></a>     │                        │                        │
-<a id="__codelineno-2-13" name="__codelineno-2-13"></a>     │  Create &amp; Broadcast    │                        │
-<a id="__codelineno-2-14" name="__codelineno-2-14"></a>     │  Payment Transaction   │                        │
-<a id="__codelineno-2-15" name="__codelineno-2-15"></a>     ├────────────────────────┼───────────────────────→│
-<a id="__codelineno-2-16" name="__codelineno-2-16"></a>     │                        │                        │
-<a id="__codelineno-2-17" name="__codelineno-2-17"></a>     │                        │   Verify Transaction   │
-<a id="__codelineno-2-18" name="__codelineno-2-18"></a>     │                        │←───────────────────────┤
-<a id="__codelineno-2-19" name="__codelineno-2-19"></a>     │                        │                        │
-<a id="__codelineno-2-20" name="__codelineno-2-20"></a>     │  GET /data             │                        │
-<a id="__codelineno-2-21" name="__codelineno-2-21"></a>     │  + Payment Auth Header │                        │
-<a id="__codelineno-2-22" name="__codelineno-2-22"></a>     ├───────────────────────→│                        │
-<a id="__codelineno-2-23" name="__codelineno-2-23"></a>     │                        │                        │
-<a id="__codelineno-2-24" name="__codelineno-2-24"></a>     │  200 OK + Data         │                        │
-<a id="__codelineno-2-25" name="__codelineno-2-25"></a>     │←───────────────────────┤                        │
+<h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Initialize</strong>: Client fetches wallet details from Privy API</li>
+<li><strong>Request</strong>: Makes HTTP request to paid endpoint</li>
+<li><strong>402 Response</strong>: Server returns "Payment Required" with payment details</li>
+<li><strong>Safety Check</strong>: Validates payment amount against configured maximum</li>
+<li><strong>Transaction</strong>: Creates Solana payment transaction</li>
+<li><strong>Sign with Privy</strong>: Sends transaction to Privy API for signing (no private keys locally)</li>
+<li><strong>Broadcast</strong>: Submits signed transaction to Solana network</li>
+<li><strong>Retry</strong>: Retries request with payment authorization header</li>
+<li><strong>Success</strong>: Server verifies payment and returns data</li>
+</ol>
+<h2 id="project-structure">Project Structure<a class="headerlink" href="#project-structure" title="Permanent link">&para;</a></h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span>
+<span class="normal"><a href="#__codelineno-6-2">2</a></span>
+<span class="normal"><a href="#__codelineno-6-3">3</a></span>
+<span class="normal"><a href="#__codelineno-6-4">4</a></span>
+<span class="normal"><a href="#__codelineno-6-5">5</a></span>
+<span class="normal"><a href="#__codelineno-6-6">6</a></span>
+<span class="normal"><a href="#__codelineno-6-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a>privy-agent/
+<a id="__codelineno-6-2" name="__codelineno-6-2"></a>├── src/
+<a id="__codelineno-6-3" name="__codelineno-6-3"></a>│   └── agent.ts       # Main agent example
+<a id="__codelineno-6-4" name="__codelineno-6-4"></a>├── package.json
+<a id="__codelineno-6-5" name="__codelineno-6-5"></a>├── tsconfig.json
+<a id="__codelineno-6-6" name="__codelineno-6-6"></a>├── .env.example
+<a id="__codelineno-6-7" name="__codelineno-6-7"></a>└── README.md
 </code></pre></div></td></tr></table></div>
-<h2 id="why-rust">Why Rust?<a class="headerlink" href="#why-rust" title="Permanent link">&para;</a></h2>
-<p>Rust is an excellent choice for X402 implementations:</p>
+<h2 id="security-benefits">Security Benefits<a class="headerlink" href="#security-benefits" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Safety</strong> - Memory safety without garbage collection</li>
-<li><strong>Performance</strong> - Zero-cost abstractions and minimal runtime</li>
-<li><strong>Concurrency</strong> - Fearless concurrency with async/await</li>
-<li><strong>Reliability</strong> - Catch bugs at compile time</li>
-<li><strong>Ecosystem</strong> - Rich ecosystem of web frameworks and blockchain tools</li>
+<li><strong>No Private Keys</strong>: Keys never leave Privy's infrastructure</li>
+<li><strong>Audit Trail</strong>: All operations logged in Privy dashboard</li>
+<li><strong>Access Controls</strong>: Fine-grained permissions for wallet operations</li>
+<li><strong>Key Rotation</strong>: Easy to rotate without code changes</li>
 </ul>
-<h2 id="support">Support<a class="headerlink" href="#support" title="Permanent link">&para;</a></h2>
-<p>For issues, questions, or contributions:
-- <a href="https://github.com/openlibx402/openlibx402">GitHub Issues</a>
-- <a href="https://github.com/openlibx402/openlibx402/discussions">GitHub Discussions</a>
-- <a href="https://www.x402.org">X402 Protocol</a>
-- <a href="https://doc.rust-lang.org/">Rust Documentation</a></p>
-<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
-<p>Start with the <a href="getting-started/installation/">Installation</a> guide and choose your path:</p>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<h3 id="wallet-not-found-error">"Wallet not found" Error<a class="headerlink" href="#wallet-not-found-error" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Building a Server?</strong> → <a href="getting-started/server-quickstart/">Server Quick Start</a></li>
-<li><strong>Building a Client?</strong> → <a href="getting-started/client-quickstart/">Client Quick Start</a></li>
-<li><strong>Need Details?</strong> → <a href="reference/api-reference/">API Reference</a></li>
+<li>Verify your <code>PRIVY_WALLET_ID</code> is correct</li>
+<li>Ensure the wallet exists in your Privy dashboard</li>
+<li>Check your <code>PRIVY_APP_ID</code> and <code>PRIVY_APP_SECRET</code> are correct</li>
+</ul>
+<h3 id="insufficient-funds-error">"Insufficient Funds" Error<a class="headerlink" href="#insufficient-funds-error" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fund your server wallet with USDC tokens</li>
+<li>Get devnet USDC from a faucet</li>
+</ul>
+<h3 id="payment-amount-exceeds-maximum-error">"Payment amount exceeds maximum" Error<a class="headerlink" href="#payment-amount-exceeds-maximum-error" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Increase <code>maxPaymentAmount</code> in config</li>
+</ul>
+<h2 id="related">Related<a class="headerlink" href="#related" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../packages/typescript/openlibx402-privy/">@openlibx402/privy Package</a></li>
+<li><a href="../express-server/">Express Server Example</a></li>
+<li><a href="../langchain-agent/">LangChain Agent Example</a></li>
 </ul>
 
 
@@ -4050,11 +4107,11 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.tabs", "content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "navigation.tabs", "content.code.copy", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   <!-- Buffer polyfill for Solana Web3.js -->
@@ -4247,7 +4304,7 @@
 
     // Force cache bust
     const chatbotScript = document.createElement('script');
-    chatbotScript.src = '../assets/javascripts/chatbot.js?t=' + Date.now();
+    chatbotScript.src = '../../../assets/javascripts/chatbot.js?t=' + Date.now();
     document.head.appendChild(chatbotScript);
   </script>
 
